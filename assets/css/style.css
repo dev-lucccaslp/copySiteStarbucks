@@ -16,6 +16,22 @@ body {
     height:22px;
 }
 
+/* BUTTON */
+
+.button {
+    display: inline-block;
+    border: 2px solid #454545;
+    padding:10px 30px;
+    border-radius:3px;
+    color: #454545;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #FFFFFF;
+    background-color: #454545;
+}
+
 /* CUSTOM */
 h1 {
     font-family: 'Oswald', sans-serif; 
@@ -23,16 +39,15 @@ h1 {
     font-weight: bold;
     line-height: 90px;
     margin: 0;
-    margin-bottom: 35px; 
+    margin-bottom: 30px; 
 }
 
-h2{
+h2 {
     font-family: 'Oswald', sans-serif; 
     font-size: 35px;
     font-weight: bold;
     line-height: 45px;
-    margin: 0;
-     
+    margin: 20px 0;
 }
 
 /* CONTAINER */
@@ -105,10 +120,9 @@ header .line {
     background-image: url(../images/bg.jpg);
     background-position: center;
     background-size: cover;
-    padding:140px;
+    padding:90px;
     padding-bottom: 90px;
 }
-
 
 .banner--images img{
     width: 148px;
@@ -128,7 +142,13 @@ header .line {
 .area1--content{
     padding:80px
 }
-
+.area1--quote {
+    margin-bottom: 30px;
+}
+.area1--text{
+    margin-bottom:50px;
+    line-height: 25px;
+}
 .area1--img1 {
     height:350px;
     background-image: url(../images/f2.jpg);
