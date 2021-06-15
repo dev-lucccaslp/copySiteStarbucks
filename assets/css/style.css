@@ -8,6 +8,10 @@ body {
 
 }
 
+/* ANIMATION */
+
+
+
 /* BAR */
 
 .bar {
@@ -133,6 +137,13 @@ header .line {
     margin-right: 40px;
 }
 
+.banner--images img:hover{
+    transform: rotate(400grad);
+    transition: 3s;
+}
+
+
+
 /* AREA 1 */
 .area1 {
     display: grid;
@@ -255,3 +266,32 @@ footer {
     padding:80px;
     text-align:center;
 }
+
+
+/* @MEDIA */
+
+@media (min-width: 769px) and (max-width:1140px) {
+    .container{
+        padding-left: 20px;
+        padding-right:20px ;
+    }
+}
+
+@media (max-width: 769px)  {
+    .container{
+        padding-left: 20px;
+        padding-right:20px ;
+    }
+    .area1{
+        grid-template-columns: 3fr 2fr;
+    }
+    .area2{
+        grid-template-columns: 2fr 3fr;
+    }
+    .area3{
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
+
+
